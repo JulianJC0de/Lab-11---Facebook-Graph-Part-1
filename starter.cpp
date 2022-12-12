@@ -62,7 +62,6 @@ int main() {
     map<string, Person> everyone;
     string startingLine, endingLine;
     map<string, bool> visited;
-    string goodbye;
 
     // Verify that the file open was OK
     if (!inFile.good()) {
